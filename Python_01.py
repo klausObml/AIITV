@@ -14,7 +14,7 @@ def averageList (myList):
     average = 0
     for i in myList:
         average += i
-    average /= len(num)
+    average /= len(myList)
     return average
 
 
