@@ -1,6 +1,5 @@
 #!/usr/bin/python
 
-import types
 
 """
 Zahlen eingeben, mit q beenden, Mittelwert berechnen
@@ -16,7 +15,6 @@ def averageList (myList):
         average += i
     average /= len(myList)
     return average
-
 
 def appendToList (x):
     if x == 'q':
